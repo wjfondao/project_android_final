@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".authen"
+    android:background="#C9FFF1EB">
+
+    <!--start Animation-->
+    <!--end Animation-->
+
+    <!-- start text username -->
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:text="Login"
+        android:textColor="#7ea6bf"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <!-- end text username -->
+
+    <!-- start text username -->
+    <TextView
+        android:id="@+id/TVUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:text="Username"
+        android:textColor="#7ea6bf"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+    <!-- end text username -->
+
+    <!-- start input username -->
+    <EditText
+        android:id="@+id/ETUsername"
+        android:layout_width="305dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/TVUsername"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="@drawable/cricle_input"
+        android:textColor="#5583a6"
+        android:textSize="25dp" />
+    <!-- start input username -->
+
+    <!-- start text password -->
+    <TextView
+        android:id="@+id/TVPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_below="@+id/ETUsername"
+        android:text="Password"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:textColor="#7ea6bf"/>
+    <!-- end text password -->
+
+    <!-- start input password -->
+    <EditText
+        android:id="@+id/ETPassword"
+        android:layout_width="305dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/cricle_input"
+        android:layout_below="@+id/TVPassword"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textColor="#5583a6"
+        />
+    <!-- end input password -->
+
+    <!-- start button Login -->
+    <Button
+        android:id="@+id/BTLogin"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="87dp"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ETPassword"
+        android:background="@drawable/cricle_bt"
+        android:text="Sign in"
+        android:textColor="#FFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <!-- end button Login -->
+
+    <!-- start button facebook -->
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="290dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/BTLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+    <!-- end button facebook -->
+
+
+</RelativeLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sizeblizzard"
+    android:background="@drawable/u1">
+
+    <!-- start  img facebook -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iv_profile"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        tools:layout_editor_absoluteX="28dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cricle_bt"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <!-- facebook  img facebook -->
+
+    <!-- start  button name facebook -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:textStyle="bold"
+        android:text="Name"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="56dp" />
+    <!-- end  button name facebook -->
+
+    <!-- start  button Logout facebook-->
+    <Button
+        android:id="@+id/login_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cricle_bt"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:text="Bank"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="80dp" />
+    <!-- end  button Logout facebook -->
+
+    <!-- ...........................start menu size............................. -->
+    <LinearLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="601dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        tools:context=".MainActivity">
+
+        <!--   ## start size m ##  -->
+        <RelativeLayout
+            android:id="@+id/size_m"
+            android:layout_width="375dp"
+            android:layout_height="510dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_lyout"
+            android:padding="20dp">
+
+            <!-- start image menu -->
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img_m"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_launcher" />
+            <!-- end image menu -->
+
+            <!-- start text size and cost (bath)-->
+            <TextView
+                android:id="@+id/cost_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:text="cost_m"
+                android:textSize="22sp" />
+            <!-- end text size and cost (bath)-->
+
+            <!-- start button choose-->
+            <Button
+                android:id="@+id/choose_m"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_m"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="220dp"
+                android:background="@drawable/btn_choose"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:text="CHOOSE"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <!-- end button choose-->
+
+        </RelativeLayout>
+        <!--   ## end size m ##  -->
+
+        <!--   ## start size l ##  -->
+        <RelativeLayout
+            android:id="@+id/size_l"
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_lyout"
+            android:padding="20dp">
+
+            <!-- start image menu -->
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img_l"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_launcher" />
+            <!-- end image menu -->
+
+            <!-- start text size and cost (bath)-->
+            <TextView
+                android:id="@+id/cost_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:text="cost_l"
+                android:textSize="22sp" />
+            <!-- end text size and cost (bath)-->
+
+            <!-- start button choose-->
+            <Button
+                android:id="@+id/choose_l"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_l"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="220dp"
+                android:background="@drawable/btn_choose"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:text="CHOOSE"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <!-- end button choose-->
+
+        </RelativeLayout>
+        <!--   ## end size l ##  -->
+
+        <!--   ## start size xl ##  -->
+        <RelativeLayout
+            android:id="@+id/size_xl"
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_lyout"
+            android:padding="20dp">
+
+            <!-- start image menu -->
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img_xl"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_launcher" />
+            <!-- end image menu -->
+
+            <!-- start text size and cost (bath)-->
+            <TextView
+                android:id="@+id/cost_xl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:text="cost_xl"
+                android:textSize="22sp" />
+            <!-- end text size and cost (bath)-->
+
+            <!-- start button choose-->
+            <Button
+                android:id="@+id/choose_xl"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_xl"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="220dp"
+                android:background="@drawable/btn_choose"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:text="CHOOSE"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <!-- end button choose-->
+
+        </RelativeLayout>
+        <!--   ## end size xl ##  -->
+
+
+    </LinearLayout>
+    <!-- ...........................end menu size............................. -->
+
+
+</RelativeLayout>

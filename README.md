@@ -19,3 +19,15 @@
   
        3.2 ส่วนของรายการ โดยแสดงข้อมูลจาก firebase Realtime database กับ Recycler view ของ Blizzard Ice Cream 
   ![alt text](photo/หน้า2.png)
+
+       3.3 ส่วนของ dialog confirm logout ของ Blizzard Ice Cream 
+   ![alt text](photo/หน้า3.png)
+   
+       3.4 ส่วนของรายการ โดยแสดงข้อมูลจาก firebase Realtime database กับ Recycler view ของ Cake ice cream
+  ![alt text](photo/หน้า6.png)
+  
+       3.5 ส่วนของ dialog confirm logout ของ Cake ice cream
+   ![alt text](photo/หน้า5.png)
+   
+   
+   
